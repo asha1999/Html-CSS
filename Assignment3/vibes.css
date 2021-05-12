@@ -1,0 +1,19 @@
+body{
+    background-color: lightblue;
+}
+h1,h4{
+    text-align: center;
+    text-transform: capitalize;
+}
+div{
+    border: solid;
+    margin: 10px 250px;
+    border-radius:20px;
+    border:solid transparent;
+    background-color: whitesmoke;
+    
+    
+}
+form h4{
+    text-transform: capitalize;
+}

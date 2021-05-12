@@ -1,0 +1,90 @@
+body{
+    background-image: url("../bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.firstdiv{
+    display:flex;
+}
+.menu{
+    height: 30px;
+    flex: 1;
+    margin:0px 20px;
+    background-color:yellow;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: medium;
+}
+.seconddiv{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(2,minmax(150px,auto));
+    grid-gap:10px;
+    margin-top:30px;
+}
+.money{
+   color:white;
+   background-color: tomato;
+}
+.left{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+.left img{
+    width:648px;
+}
+
+.righttop{
+    grid-column-start:3;
+    grid-column-end:3 ;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+.rightbottom{
+    grid-row-start:2 ;
+    grid-row-end:3;
+    grid-column-start: 3;
+    grid-column-end: 3; 
+    background-color: yellow;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+.thirddiv{
+    display: flex;
+    margin: 20px;
+}
+.meal{
+    background-color: white;
+    flex: 1;
+    margin: 0px 20px;
+    height: 200px;
+    text-align: center;
+    padding-top: 58px;
+}
+.fourthdiv{
+    display: flex;
+    height: 50px;
+    background-color: white;
+    margin: 20px;
+}
+.images{
+    flex: 1;
+    margin:20px;
+}
+
+
+.food{
+    margin: 20px 20px;
+    height:28px;
+    background-color: white;
+    height:300px
+}
+
+
